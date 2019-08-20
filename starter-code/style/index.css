@@ -1,0 +1,25 @@
+.container{
+    margin: 0 auto !important;
+    padding: 0 auto !important;
+    
+}
+.card:hover .card-body{
+    opacity: 0.6;
+}
+
+.card:hover .card-img-body{
+transform: scale(1.05);
+}
+
+ul.pyhen{
+    list-style: none;
+}
+ul.pyhen li:before {
+    content: "-";
+    margin-right: 7px; 
+    color: rgb(0, 81, 255);
+    font-size: 1.25em;
+}
+.textsize{
+    font-size: 1.25em;
+}
